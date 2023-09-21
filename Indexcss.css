@@ -2,3 +2,30 @@ body{
    margin: 0;
    padding: 0;
 }
+.dis{
+   display: inline-block;
+   padding: 10px 0px 0px 30px;
+   font-size: 30px;
+   
+
+}
+.color1{
+   color: blue;
+   font-weight: 600;
+}
+.color2{
+   color:red;
+   font-weight: 600;
+}
+.color3{
+   color: yellow;
+   font-weight: 600;
+}
+.color4{
+   color: blue;
+   font-weight: 600;
+}
+.color5{
+   color:green;
+   font-weight: 600;
+}
