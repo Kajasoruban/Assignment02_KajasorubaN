@@ -1,8 +1,20 @@
+#bod{
+   margin: 0;
+   padding: 0;
+}
 #gets{
    background-color: orangered;
    color: white;
    border: 0;
    border-radius: 30px;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+#gets_1{
+   background-color: orangered;
+   color: white;
+   border: 0;
+   border-radius: 5px;
    padding-left: 20px;
    padding-right: 20px;
 }
@@ -20,4 +32,43 @@
 .navo,li {
    padding-left: 3px;
    padding-right: 3px;
+}
+#shad1{
+   box-shadow: 1px 1px 7px 1px rgb(182, 180, 180);
+}
+/* .second,.second1,.second1_1,.second1_2{
+   
+   background-color: rgb(230, 170, 50);
+} */
+.second{
+   padding: 100px;
+}
+.second1{
+   margin: auto 90px auto 50px;
+
+}
+.second1_1{
+   float: left;
+   width: 40%;
+   margin-top: 100px;
+   margin-left: 30px;
+  
+}
+.second1_1 > h1{
+   font-size: 37px;
+}
+.second1_2{
+   float: right;
+   width: 50%;
+   /* background-color: brown; */
+   margin-top: 0;
+   margin-right: 70px;
+   
+   
+   
+}
+.second1_2 > img{
+   width: 700px;
+   height: 400px;
+   /* opacity: 0.7; */
 }
