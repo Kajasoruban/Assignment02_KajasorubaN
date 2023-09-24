@@ -2,165 +2,194 @@
    margin: 0;
    padding: 0;
 }
+
+/*1. below is get button */
 #gets{
-   background-color: orangered;
+   background-color: green;
    color: white;
    border: 0;
    border-radius: 30px;
    padding-left: 20px;
    padding-right: 20px;
+   cursor: crosshair;
+}
+#gets:hover{
+   background-image: radial-gradient(rgb(70, 253, 64),rgb(45, 248, 18),rgb(2, 75, 8) ) ;
+   color: black;
 }
 #gets_1{
-   background-color: orangered;
+   background-color: green;
    color: white;
    border: 0;
    border-radius: 5px;
    padding-left: 20px;
    padding-right: 20px;
+   cursor: crosshair;
 }
+#gets_1:hover{
+   background-image:  radial-gradient(rgb(70, 253, 64),rgb(45, 248, 18),rgb(2, 75, 8) ) ;
+   color: black;
+}
+
+/* 2.below for nav bar */
+
 .left1{
-   padding-left: 150px;
+   padding-left: 130px;
    color: gray;
 }
 .right1{
-   padding-right: 150px;
+   padding-right: 130px;
 }
-
 #act1 {
-   color: orangered;
+   color: rgb(95, 255, 2);
 }
 .navo,li {
    padding-left: 3px;
    padding-right: 3px;
 }
 #shad1{
-   box-shadow: 1px 1px 7px 1px rgb(182, 180, 180);
+   box-shadow: 1px 1px 7px 1px rgb(154, 235, 129);
    /* position: fixed; */
    width:100%;
-   
 }
 
-.second{
-   
-   width: 100%;
-   height: auto;
-   padding: 10px;
+/* 3.below is second section */
 
+.second{
+   width: 100vw;
+   height: 55vh;
+   
+   /* border: 1px solid black; */
+  
 
 }
 .second1{
-   margin: auto 50px auto 100px;
-   margin-top: 50px;
-   background-color: aqua;
    
-   
+   margin: 1em auto;
+   /* border: 1px solid black; */
+  
+   height: 50vh;
+   width: 80vw;
+     
 }
 .second1_1{
    float: left;
-   width: 40%;
+   width: 39vw;
+   height: 45vh;
+   padding-top: 0.5em;
+   /* border:1px solid black; */
    
-   
-   
-
 }
 
 .second1_2{
    float: right;
-   width: 40%;
-   
+   width: 39vw; 
+   height: 45vh;
+   /* border: 1px solid black; */
+   padding-left: 2em;
    
 }
 .second1_2 > img{
-   width: 500px;
-   height: 300px;
+   width: 30vw;
+   height: 20vw;
+   min-width: 200px;
+   min-height: 300px;
+   /* border: 1px solid black; */
+   
    
 }
 
+
+/* 4.below is third section */
+
 .third{
-   padding: 100px;
-   width: 100%;
-   height: auto;
+   width: 100vw;
+   height: 55vh;
    
+   /* border: 1px solid black; */
+  
    
 }
 .third1{
-   margin: auto 90px auto 50px;
-   padding-top: 40px;
-   width: 80%;
-   margin: 200px auto auto auto;
+   margin: auto;
+   /* border: 1px solid black; */
+  
+   height: 50vh;
+   width: 80vw;
 
 }
 .third1_1{
-   float: right;
-   width: 40%;
-   margin-top: 100px;
-   margin-right: 40px;
-   
-  
-}
-.third1_1 > h1{
-   font-size: 37px;
-}
-.third1_2{
    float: left;
-   max-width: 30%;
-   /* background-color: brown;  */
-   margin-top: 60px;
-   margin-right: 90px;
-   
-   
-   
+   width: 39vw; 
+   height: 45vh;
+   /* border: 1px solid black; */
+   padding-left: 2em;
 }
-.third1_2 > img{
-   width: 400px;
-   height: 300px;
-   margin-left: 50px;
-   margin-top: 50px;
-   /* opacity: 0.7; */
+.third1_1 > img {
+   width: 30vw;
+   height: 20vw;
+   min-width: 200px;
+   min-height: 300px;
+   translate: -2rem;
+   /* border: 1px solid black; */
+}
+
+.third1_2{
+   float: right;
+   width: 39vw;
+   height: 45vh;
+   padding-top: 0.5em;
+   /* border:1px solid black; */
+   overflow: auto;
 }
 
 .ico{
-   display: flex;
-   
+   display: flex; 
 }
-.ico1, .ico2, .ico3{
-   flex-basis: 300px;
-   /* justify-content: space-evenly; */
+.ico1, .ico2, .ico3{  
    margin: 4px;
-
-
 }
+
+/* 5.below is fourth section */
 
 .fourth{
-   width: 100%;
-   margin-top: 400px;
+   
    text-align: center;
-
+   width: 100vw;
+   height: 110vh;
+   
+   /* border: 1px solid black; */
 
 }
 .gal{
    display:grid;
    grid-template-columns: auto auto auto;
-   /* background-color: blue; */
-   gap: 10px;
-   padding: 10px;
-   margin: 80px 40px auto 40px;
+   width: 80vw;
+   height: 80vh;
+   
+   align-content: space-around;
+   
+   margin: auto;
+   /* border: 1px solid black; */
    
 }
-.gal > div{
+/* .gal > div{
    border: 1px solid black;
-   padding: 50px;
-   /* background-color: aqua; */
+   
+   
 
-}
+} */
 .gal  img {
-   width: 180px;
-   height: 150px;
+   width: 25vw;
+   height: 25vh;
+   box-shadow: 0 0 5px 2px #6b9cc5;
+   border-radius: 5px;
+   
 }
 hr{
-   width: 10%;
+   width: 20vw;
    margin: 0 auto;
-   color: orangered;
+   color: rgb(30, 0, 202);
    padding: 3px;
    border-width: 3px;
 }
