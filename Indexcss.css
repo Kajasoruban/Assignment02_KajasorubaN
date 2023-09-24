@@ -34,11 +34,11 @@
 /* 2.below for nav bar */
 
 .left1{
-   padding-left: 130px;
+   padding-left: 8.125rem;
    color: gray;
 }
 .right1{
-   padding-right: 130px;
+   padding-right: 8.125rem;
 }
 #act1 {
    color: rgb(95, 255, 2);
@@ -161,6 +161,27 @@
    /* border: 1px solid black; */
 
 }
+.fourth 
+hr{
+   width: 20vw;
+   margin: 0 auto;
+   color: rgb(30, 0, 202);
+   padding: 3px;
+   border-width: 3px;
+}
+.port{
+   
+   color: rgb(43, 89, 153);
+}
+
+.galt > li{
+   display: inline;
+
+}
+
+/* 6.below is for image gallery */
+
+
 .gal{
    display:grid;
    grid-template-columns: auto auto auto;
@@ -173,32 +194,77 @@
    /* border: 1px solid black; */
    
 }
-/* .gal > div{
-   border: 1px solid black;
-   
-   
 
-} */
 .gal  img {
    width: 25vw;
    height: 25vh;
    box-shadow: 0 0 5px 2px #6b9cc5;
    border-radius: 5px;
+}
+.gal  img:hover{
+    transform: scale(1.1,1.1);
+    /* cursor: none; */
+    cursor: pointer;
+}
+
+
+   /* 7.below is for image details */
+   
+.gal-detail{
+   width: 100vw;
+   height: 100vh;
+   background-image: radial-gradient(rgb(156, 191, 235) ,rgb(152, 186, 228) 10%,rgb(0, 0, 0) 90%);
+   position: fixed;
+   top: 0;
+   left: 0;
+
+   display: none;
+   z-index: 100;
+   align-items: center;
+}
+.gal-detail img {
+   width:50vw;
+   height: 80vh;
+   border-radius: 1.3rem;
+   translate: 2rem;
+   border: 1px solid black;
+}
+
+.galdes{
+   display: flex;
+   flex-direction: column;
+   width: 35vw;
+   height: 80vh;
+   margin: auto;
+   border: 1px solid black;
+   border-radius: 1.3rem;
+   justify-content: space-around;
+   background-image: linear-gradient(90deg,rgba(228, 222, 222,0.7) 80%,rgba(59, 57, 57,0.7));
+   padding: 0.5rem;
+   overflow: auto;
+   gap: 1rem;
+   flex-wrap: wrap;
    
 }
-hr{
-   width: 20vw;
-   margin: 0 auto;
-   color: rgb(30, 0, 202);
-   padding: 3px;
-   border-width: 3px;
+#close{
+   
+   width: 5vw;
+   height: 5vh;
+   translate: -40px 40px;
+   position: absolute;
+   top: 5vh;
+   right: 5vw;
 }
-.port{
-   font-size: 25px;
-   color: rgb(148, 131, 81);
+#close:hover{
+   cursor: grab;
 }
+/* #mistake{
+   border: 1px solid black;
+} */
 
-.galt > li{
-   display: inline;
-
+/* .galdes div{
+   border: 1px solid rgb(243, 243, 243);
+} */
+.galdes h1,p{
+   text-align: left;
 }
