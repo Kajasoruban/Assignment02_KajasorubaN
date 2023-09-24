@@ -158,11 +158,10 @@
    width: 100vw;
    height: 110vh;
    
-   /* border: 1px solid black; */
+   border: 1px solid black;
 
 }
-.fourth 
-hr{
+.fourth hr{
    width: 20vw;
    margin: 0 auto;
    color: rgb(30, 0, 202);
@@ -174,10 +173,23 @@ hr{
    color: rgb(43, 89, 153);
 }
 
-.galt > li{
+.galt > li,a{
    display: inline;
+   text-decoration: none;
+   color: rgb(100, 98, 98);
+
 
 }
+.galt > #card{ 
+   color: rgb(0, 89, 255);
+}
+.galt > #teamcolor{
+   color: rgb(228, 68, 4);
+}
+.galt > #contactcolor{ 
+   color: rgb(255, 0, 179);
+}
+
 
 /* 6.below is for image gallery */
 
@@ -191,7 +203,7 @@ hr{
    align-content: space-around;
    
    margin: auto;
-   /* border: 1px solid black; */
+   border: 1px solid black;
    
 }
 
@@ -267,4 +279,134 @@ hr{
 } */
 .galdes h1,p{
    text-align: left;
+}
+
+/* 8.below is fifth section(team) */
+
+.fifth{
+   width: 100vw;
+   height: 65vh;
+   border: 1px solid black;
+   text-align: center;
+  
+}
+.port2{
+   color: rgb(155, 107, 2);
+}
+.fifth hr{
+   width: 20vw;
+   margin: 0 auto;
+   color: rgb(190, 24, 2);
+   padding: 0.5rem;
+   border-width: 3px;
+}
+
+.fifth1{
+   margin: auto;
+   border: 1px solid black;
+   
+   height: 40vh;
+   width: 80vw;
+   display: flex;
+   justify-content: space-around;
+   padding-top: 0.5em;
+
+}
+.fifth1 > div {
+   border: 1px solid black;
+   width: 18vw;
+   height: 40vh;
+   
+}
+
+/* 9.below is sixth section(clients) */
+
+.sixth{
+   width: 100vw;
+   height: 46vh;
+   border: 1px solid black;
+   text-align: center;
+}
+.port3{
+   color: rgb(194, 7, 131);
+}
+.sixth hr{
+   width: 20vw;
+   margin: 0 auto;
+   color: rgb(238, 0, 139);
+   padding: 0.5rem;
+   border-width: 3px;
+}
+
+.sixth1{
+   margin: auto;
+   border: 1px solid black;
+   
+   height: 22vh;
+   width: 80vw;
+   display: flex;
+   justify-content: space-around;
+   padding-top: 0.5em;
+
+}
+.sixth1 > div {
+   border: 1px solid black;
+   width: 18vw;
+   height: 20vh;
+   
+}
+
+/* 10.below is seventh section(footer) */
+
+.seventh{
+   width: 100vw;
+   height: 40vh;
+   border: 1px solid black;
+   
+}
+.seventh1{
+   width: 80vw;
+   height: 35vh;
+   margin: auto;
+   border: 1px solid black;
+   display: flex;
+   justify-content: space-around;
+}
+.seventh1 > div{
+   width: 16vw;
+   height: 32vh;
+   margin-top: 0.5em;
+   overflow: auto;
+   border: 1px solid rgb(228, 8, 8);
+}
+
+#social > span{
+    padding: 0.5em;
+}
+
+/* 11.below is eighth section(last) */
+
+.eighth{
+   width: 100vw;
+   height: 6vh;
+   border: 1px solid rgb(235, 49, 194);
+   
+}
+.eighth1{
+   width: 80vw;
+   height: 5vh;
+   margin: auto;
+   display: flex;
+   border: 1px solid rgb(11, 146, 22);
+   position: relative;
+   bottom: 0;
+}
+.eighth1 > div{
+   width: 40vw;
+   height: 4vh;
+   margin-top: 0.5em;
+   border: 1px solid rgb(18, 7, 173);
+}
+.foot2 > p{
+   text-align: right;
 }
