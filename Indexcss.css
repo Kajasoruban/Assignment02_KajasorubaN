@@ -225,7 +225,8 @@
 .gal-detail{
    width: 100vw;
    height: 100vh;
-   background-image: radial-gradient(rgb(156, 191, 235) ,rgb(152, 186, 228) 10%,rgb(0, 0, 0) 90%);
+   /* background-image: radial-gradient(rgb(198, 222, 248) ,rgb(209, 227, 248) 10%,rgb(148, 145, 145) 90%); */
+   background-color: white;
    position: fixed;
    top: 0;
    left: 0;
@@ -251,7 +252,7 @@
    /* border: 1px solid black; */
    border-radius: 1.3rem;
    justify-content: space-around;
-   background-image: linear-gradient(90deg,rgba(228, 222, 222,0.7) 80%,rgba(59, 57, 57,0.7));
+   /* background-image: linear-gradient(90deg,rgba(228, 222, 222,0.1) 90%,rgba(59, 57, 57,1.0)); */
    padding: 0.5rem;
    overflow: auto;
    gap: 1rem;
