@@ -30,6 +30,10 @@
    background-image:  radial-gradient(rgb(70, 253, 64),rgb(45, 248, 18),rgb(2, 75, 8) ) ;
    color: black;
 }
+#gets_1:active{
+    background-image: radial-gradient(rgb(247, 84, 84),rgb(236, 33, 6),rgb(75, 2, 2) );
+}
+
 
 /* 2.below for nav bar */
 
@@ -94,10 +98,12 @@
    height: 20vw;
    min-width: 200px;
    min-height: 300px;
+   
    /* border: 1px solid black; */
-   
-   
+    
 }
+
+
 
 
 /* 4.below is third section */
