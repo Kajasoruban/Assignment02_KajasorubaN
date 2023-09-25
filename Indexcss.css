@@ -238,7 +238,7 @@
    width:50vw;
    height: 80vh;
    border-radius: 1.3rem;
-   translate: 2rem;
+   translate: 3rem;
    /* border: 1px solid black; */
 }
 
@@ -270,6 +270,11 @@
 #close:hover{
    cursor: grab;
 }
+
+
+
+
+
 /* #mistake{
    border: 1px solid black;
 } */
@@ -323,7 +328,37 @@
    /* border: 1px solid black; */
    width: 18vw;
    height: 35vh;
+   border-radius: 1rem;
+   box-shadow: 0px 0px 2px 4px rgb(126, 123, 117);
 }
+#e:hover{
+   transform: scale(0.9,0.9);
+   box-shadow: 2px 2px 8px 6px rgb(212, 200, 20);
+}
+#f:hover{
+   transform: scale(0.9,0.9);  
+   box-shadow: 2px 2px 8px 6px rgb(212, 200, 20);
+}
+#g:hover{
+   transform: scale(0.9,0.9);
+   box-shadow: 2px 2px 8px 6px rgb(212, 200, 20);
+}
+#h:hover{
+   transform: scale(0.9,0.9);
+   box-shadow: 2px 2px 8px 6px rgb(212, 200, 20);
+}
+/* .hide1{
+   translate: 3rem 2rem;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 2rem;
+}
+.hide1,p{
+   font-size: 10px;
+}
+#hide2:hover{
+   font-size: 30px;
+} */
+
 
 
 /* 9.below is sixth section(clients) */
@@ -358,8 +393,8 @@
 }
 #a,#b,#c,#d{
    /* border: 1px solid black; */
-   width: 18vw;
-   height: 20vh;
+   width: 16vw;
+   height: 18vh;
 }
 
 /* 10.below is seventh section(footer) */
@@ -407,6 +442,8 @@
 .eighth{
    width: 100vw;
    height: 6vh;
+   background-image:radial-gradient(white,pink 80%);
+   
    /* border: 1px solid rgb(235, 49, 194); */
    
 }
@@ -422,9 +459,9 @@
 .eighth1 > div{
    width: 40vw;
    height: 4vh;
-   margin-top: 0.5em;
+   margin-top: 1em;
    /* border: 1px solid rgb(18, 7, 173); */
-   font-size: small;
+   font-size: 1rem;
 }
 .foot2 > p{
    text-align: right;
@@ -433,5 +470,5 @@
    color:  rgb(226, 19, 174);
 }
 #up{
-   translate: 6rem;
+   translate: 6rem 0.6rem;
 }
