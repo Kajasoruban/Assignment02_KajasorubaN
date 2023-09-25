@@ -158,7 +158,7 @@
    width: 100vw;
    height: 110vh;
    
-   border: 1px solid black;
+   /* border: 1px solid black; */
 
 }
 .fourth hr{
@@ -203,7 +203,7 @@
    align-content: space-around;
    
    margin: auto;
-   border: 1px solid black;
+   /* border: 1px solid black; */
    
 }
 
@@ -239,7 +239,7 @@
    height: 80vh;
    border-radius: 1.3rem;
    translate: 2rem;
-   border: 1px solid black;
+   /* border: 1px solid black; */
 }
 
 .galdes{
@@ -248,7 +248,7 @@
    width: 35vw;
    height: 80vh;
    margin: auto;
-   border: 1px solid black;
+   /* border: 1px solid black; */
    border-radius: 1.3rem;
    justify-content: space-around;
    background-image: linear-gradient(90deg,rgba(228, 222, 222,0.7) 80%,rgba(59, 57, 57,0.7));
@@ -286,7 +286,7 @@
 .fifth{
    width: 100vw;
    height: 65vh;
-   border: 1px solid black;
+   /* border: 1px solid black; */
    text-align: center;
   
 }
@@ -303,7 +303,7 @@
 
 .fifth1{
    margin: auto;
-   border: 1px solid black;
+   /* border: 1px solid black; */
    
    height: 40vh;
    width: 80vw;
@@ -313,18 +313,25 @@
 
 }
 .fifth1 > div {
-   border: 1px solid black;
+   /* border: 1px solid black; */
    width: 18vw;
    height: 40vh;
    
 }
+
+#e,#f,#g,#h{
+   /* border: 1px solid black; */
+   width: 18vw;
+   height: 35vh;
+}
+
 
 /* 9.below is sixth section(clients) */
 
 .sixth{
    width: 100vw;
    height: 46vh;
-   border: 1px solid black;
+   /* border: 1px solid black; */
    text-align: center;
 }
 .port3{
@@ -340,7 +347,7 @@
 
 .sixth1{
    margin: auto;
-   border: 1px solid black;
+   /* border: 1px solid black; */
    
    height: 22vh;
    width: 80vw;
@@ -349,26 +356,26 @@
    padding-top: 0.5em;
 
 }
-.sixth1 > div {
-   border: 1px solid black;
+#a,#b,#c,#d{
+   /* border: 1px solid black; */
    width: 18vw;
    height: 20vh;
-   
 }
 
 /* 10.below is seventh section(footer) */
 
 .seventh{
    width: 100vw;
-   height: 40vh;
-   border: 1px solid black;
+   height: 50vh;
+   /* border: 1px solid black; */
    
 }
 .seventh1{
    width: 80vw;
    height: 35vh;
    margin: auto;
-   border: 1px solid black;
+   padding-top: 6rem;
+   /* border: 1px solid black; */
    display: flex;
    justify-content: space-around;
 }
@@ -377,11 +384,22 @@
    height: 32vh;
    margin-top: 0.5em;
    overflow: auto;
-   border: 1px solid rgb(228, 8, 8);
+   /* border: 1px solid rgb(228, 8, 8); */
 }
 
 #social > span{
     padding: 0.5em;
+}
+
+@counter-style custom-unordered {
+   system: fixed;
+   symbols:  '👉' '👉''👉''👉''👉';
+   suffix: ' ';
+ }
+
+.listtype{
+   list-style: custom-unordered;
+
 }
 
 /* 11.below is eighth section(last) */
@@ -389,7 +407,7 @@
 .eighth{
    width: 100vw;
    height: 6vh;
-   border: 1px solid rgb(235, 49, 194);
+   /* border: 1px solid rgb(235, 49, 194); */
    
 }
 .eighth1{
@@ -397,7 +415,7 @@
    height: 5vh;
    margin: auto;
    display: flex;
-   border: 1px solid rgb(11, 146, 22);
+   /* border: 1px solid rgb(11, 146, 22); */
    position: relative;
    bottom: 0;
 }
@@ -405,7 +423,7 @@
    width: 40vw;
    height: 4vh;
    margin-top: 0.5em;
-   border: 1px solid rgb(18, 7, 173);
+   /* border: 1px solid rgb(18, 7, 173); */
    font-size: small;
 }
 .foot2 > p{
